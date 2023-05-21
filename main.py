@@ -13,7 +13,7 @@ class CommandClass:
     def __init__(self):
         self.CommandClassRunning = True
         
-        ctypes.windll.kernel32.SetConsoleTitleW("Literally Git But Better")
+        ctypes.windll.kernel32.SetConsoleTitleW("sxm")
         
         colorama.init(autoreset=True)
         
